@@ -1,0 +1,26 @@
+* {
+    background-color: pink
+}
+
+.purple {
+    color: rgb(106, 54, 228);
+}
+
+#country {
+    background-color: rgb(150, 195, 235);
+}
+
+#weather {
+    background-color: rgb(255, 235, 205);
+}
+.data {
+    font-family: monospace;
+}
+
+.tab {
+    background-color: rgb(22,100,82);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: rgb(0, 100,0);
+}
