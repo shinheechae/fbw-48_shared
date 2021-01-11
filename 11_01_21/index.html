@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Weekend</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <h1>Hey there!</h1>
+   
+    <ol>
+        <li class="classname"></li>
+        <li class="classname"></li>
+        <li class="classname"></li>
+        <li class="classname"></li>
+        <li class="classname"></li>
+    </ol>
+
+    <h2 id="d-sel">Descendant selector</h2>
+    <p>The descendant selector matches all elements that are descendants of a specified elements</p>
+
+    <section class="section1">
+        <p>Par 1</p>
+        <p>Par 2</p>
+        <div>
+            <p>Par 3 in a div</p>
+        </div>
+    </section>
+<a href="http://www.google.com" target="_blank" alt= "jump to google" rel="noopener noreferrer">Jump to Google</a><br>
+<a href="http://www.github.com" target="_blank" alt= "jump to github" rel="noopener noreferrer">Jump to github</a><br>
+<a href="mailto:example@gmail.com?subject=Hi&body=Howdy mates?">Send an email</a><br>
+
+<!-- css units -->
+<aside class="box per50">50%</aside>
+<aside class="box2 pix80">80px</aside>
+<aside class="box vw50">50vw</aside>
+<aside class="box2 vh25">25vh</aside>
+
+<section class="parent">
+    <aside class="box per50">50%</aside>
+    <aside class="box2 pix80">80px</aside>
+    <aside class="box vw50">50vw</aside>
+    <aside class="box2 vh25">25vh</aside>
+</section>
+
+<!-- rem and em units: rem relates to the root, em relates to its parent -->
+<div class="one-rem">1 rem</div>
+<div class="one-em">1 em</div>
+<div class="two-rem">2 rem</div>
+<div class="two-em">2 em</div>
+
+
+<section class="parent-rem-em">
+    <div class="one-rem">1 rem</div>
+    <!-- 1 rem remains the same regardless of parent. (default root size) -->
+    <div class="one-em">1 em</div>
+    <div class="two-rem">2 rem</div>
+    <div class="two-em">2 em</div>
+</section>
+
+</body>
+</html>
