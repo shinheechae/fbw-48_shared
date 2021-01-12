@@ -1,0 +1,9 @@
+* {
+    background-color: rgb(250, 222, 62);
+}
+
+.img1 {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
