@@ -1,0 +1,15 @@
+.h1 {
+    border-bottom: 3px solid gray;
+}
+
+h4-1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.table {
+    border: 1px solid darkgray;
+    width: 47%;
+    padding: 1;
+    border-spacing: 0;
+}
