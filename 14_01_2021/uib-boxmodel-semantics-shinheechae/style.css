@@ -1,0 +1,46 @@
+body {
+    font-family: monospace;}
+
+h1 {
+    border-bottom: 1px solid gray;
+}
+.center{
+    text-align: center;
+}
+
+.section1 {
+    width: 45%;
+    margin-left: 2%;
+
+}
+
+.section2 {
+    width: 50%;
+    float: right;
+    margin-left: 0%;
+}
+
+.section3 {
+    width: 100vw
+}
+section {
+    display: inline-block;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hidden {
+    list-style-type: none;
+}
+
+.big {
+    height: 6vh;
+    padding-top: 1%;
+}
+
+.footer {
+    margin-top: 1%;
+    border-top: 1px solid gray;
+}
