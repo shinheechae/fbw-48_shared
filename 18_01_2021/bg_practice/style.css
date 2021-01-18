@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body  {
+    background: center / cover no-repeat url(/img/download.jpeg);
+    height: 100vh; 
+    opacity: 0.4; 
+}*/
+
+h1 {
+font-size: 4rem;
+text-align: center;
+font-weight: 200;
+opacity: 1;
+}
+
+ .img-container {
+    /* height: 25rem;
+    width: 35rem;
+    margin: 10% auto;
+    background-image: url(/img/download.jpeg);
+    background-size: cover; 
+     cover resizes the img to cover the container. stretches the image if needed
+    auto: shows the original size, not ideal  contain: resizes the img to fully visible 
+    background-repeat: no-repeat; */
+    background: center / cover no-repeat url(/img/download.jpeg);
+    height: 100vh; 
+    opacity: 0.4;
+}
