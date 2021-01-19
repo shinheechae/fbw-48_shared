@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* text section - relative 
+The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position*/
+.bg {
+width: 99vw;
+height: 60vw;
+position: relative;
+
+}
+
+.bg h1, h2 {
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    color: rgb(231, 4, 4);
+}
+
+.bg h1 {
+    padding-top: 200px
+}
+
+/* image section - absolute
+The element is positioned relative to its first positioned (not static) ancestor element */
+.bg::before {
+background-image: url(/bg/img/IMG_4460.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+opacity: 0.7;
+content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+}
+
+li {
+    list-style-type: none;
+}
