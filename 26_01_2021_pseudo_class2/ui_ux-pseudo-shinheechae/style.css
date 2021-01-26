@@ -1,0 +1,77 @@
+* {
+   box-sizing: border-box;
+}
+
+.quote::before, .quote::after {
+    
+    content: "";
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+}
+
+.files li {
+    padding: 5px;
+}
+
+.file_pdf::after {
+    content: "";
+    background-image: url(https://img.icons8.com/officel/64/000000/pdf.png);
+    display: inline-block;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: -5px;
+    padding: 3px;
+ 
+}
+
+.file_xls::after {
+    content: "";
+    background-image: url(https://img.icons8.com/dusk/64/000000/ms-excel.png);
+    display: inline-block;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: -8px;
+    padding: 3px;
+}
+
+.file_doc::after {
+    content: "";
+    background-image: url(https://img.icons8.com/dusk/64/000000/ms-word.png);
+    display: inline-block;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: url();
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.sandwich_content li {
+    list-style-type: none;
+    
+}
+
+.sandwich {
+    padding: 2px;
+}
+
+.sandwich::before {
+    background: linear-gradient(to left, #668bdb, #c6e67d);
+    content: "";
+    height: 10px;
+    display: block;
+    
+}   
+
+.sandwich::after {
+    background: linear-gradient(to right, #668bdb, #c6e67d);
+    content: "";
+    height: 10px;
+    display: block;
+}
+
