@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>Contact Form</header>
+    <main class="main">
+
+        <form action="" method=""> 
+
+            <div class="details"></div>
+                <fieldset>
+                    <legend>About You</legend>
+
+                    <div class="userName">
+                        <label for="name"> Name: </label>
+                        <input type="text" name="userName" placeholder="type your name"/></div>
+                    
+                        <div class="userEmail">
+                        <label>Email Address: </label>
+                        <input type="email" for="userEmail" name="emailAddress" placeholder="xxx@domain.com"></div>
+                </fieldset>       
+         
+
+            <div class="experience"></div>
+                <fieldset>
+                    <legend>Programming Experience</legend>
+                    <p>Pick your preferred language:</p>
+                     
+                    <div class="javascript">
+                        <input type="radio" value="javascript" name="javascript"/>
+                        <label for="">Javascript</label></div>
+
+                    <div class="php">
+                        <input type="radio" value="php" name="php"/>
+                        <label for="">PHP</label></div>
+                    
+                    <P>Career orientation:</P>
+
+                    <div class="webDev">
+                        <input type="checkbox" value="webDev" name="webDev"><label for=""> Web Dev</label></div>
+
+                    <div class="sysAdmin">
+                        <input type="checkbox" value="sysAdimin" name="sysAdimin">
+                        <label for="">System Admin</label></div>
+                    
+                        <div class="experience">
+                            <div><label for="">Further experience:</label></div>
+                            <textarea name="furtherExperience" cols="30" rows="10"></textarea>
+                        </div>
+                    <div class="select">
+                        <label for="">How did you find us?</label>
+                        <select>
+                            <option value="select" disabled selected>Select here</option>
+                            <option value="internet">Internet Search</option>
+                            <option value="socialMedia">Social Media</option>
+                            <option value="newspaper">Newspaper</option>
+                        </select>
+
+                        <!-- uploading and send a file -->
+                    <div class="upload">
+                        <label for="upload">Upload your data: </label>
+                        <!-- <input type="file" id="upload" name="upload"> id creates a link to a label (input > id = label > for ) -->
+                    </div>
+                    </div>
+                </fieldset>
+            </div>   
+            <div><button>Submit</button></div>
+        </form>
+    </main>
+</body>

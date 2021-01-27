@@ -1,0 +1,60 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.heading {
+    font-size: 1.5rem;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    padding: 5px;
+    margin-bottom: 18px;
+}
+
+legend {
+    color: cornflowerblue;
+}
+
+button {
+    color: #faf5a9;
+    background-color: darkolivegreen;
+    
+}
+
+main {
+    display: block;
+    
+}
+
+.partOne {
+    float: left;
+    width: 49%;
+    margin: 0 10px;
+
+    
+}
+
+.partTwo {
+    width: 49%;
+    float: right;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+width: 100%;
+}
+
+button {
+    margin-left: 6px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 3px 6px;
+}

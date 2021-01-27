@@ -1,0 +1,23 @@
+* {   
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f3db71;
+    /* text-align: center; */
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+}
+
+.javascript, .php, .webDev, .sysAdmin .experience, .select {
+    padding: 10px;
+}
