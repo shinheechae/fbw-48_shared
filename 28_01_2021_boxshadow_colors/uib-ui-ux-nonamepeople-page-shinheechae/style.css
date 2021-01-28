@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+#second {
+    background-color: #36dffd;
+    padding: 10px 80px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: -11px;
+}
+.container {
+    height: 400px;
+    background: url("assets/svg/services.svg"), whitesmoke;
+    background-position: center right;
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    margin: 0 80px;
+    
+}   
+
+.container_text {
+    font-size: larger;
+    padding-top: 90px;
+    padding-left: 120px;
+    font-weight: 600;
+}
+
+.container_text li {
+    padding: 15px ;
+}
+ul li {
+    list-style-type: none;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_text {
+    padding-top: 10px;
+    margin: 0 80px;
+}
+.foot_icon {
+    display: flex;
+    padding-right: 60px;
+    
+}
+
+.foot_icon li {
+    padding-right: 30px;
+    
+}
+
+.container_two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.8rem;
+    color: #36dffd;
+    font-weight: 600;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.container_three {
+    display: flex;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+.mainbox {
+width: 50%;
+padding-top: 70px;
+padding-left: 60px;
+
+}
+
+.imagebox {
+    width: 50%;
+    height: 40rem;
+    background: url("/assets/png/hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+    background-color: #36dffd;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.tab {
+    margin-right: -150px;
+}
+
+.pic {
+filter: invert(78%) sepia(9%) saturate(5527%) hue-rotate(157deg) brightness(101%) contrast(106%);
+}
