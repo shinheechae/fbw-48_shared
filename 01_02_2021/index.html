@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="#" method="GET">
+            <ul class="">
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text"name="user_name" id="name" maxlength="20" required>
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address" required disabled>
+                </li>
+                <li>
+                    <label for="pass">Password</label>
+                    <input type="password" name="password"
+                    id="pass" minlength="8" required readonly>
+                </li>
+                <li>
+                    <label for="msg">Message</label>
+                   <textarea name="textarea" id="msg"></textarea></li>
+                <li>Newsletter
+                    <label class="switch">
+                        <input type="checkbox"><span class="slider round"></span>
+                    </label>
+                </li>
+            </ul>
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </form>
+
+        <form action="#" method="GET">
+            <label for="city_select">Chosse your city!</label>
+            <select name="cities" id="city_select" id="cities">
+                <option value="Please select:" selected disabled>Please select: </option>
+                    <optgroup label="Europe">
+                        <option value="Prague">Prague</option>
+                        <option value="Berlin">Berlin</option>
+                        <option value="Paris">Paris</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="Seoul">Seoul</option>
+                        <option value="Tokyo">Tokyo</option>
+                        <option value="Bangkok">Bangkok</option>
+                    </optgroup>
+            </select>
+        </form>
+
+        <form action="#">
+            <label for="song">Upload your song</label>
+            <input type="file" name="file" id="song">
+        </form>
+
+        <form action="#">
+        <label for="petChoice">Choose your Pet:</label>
+        <select for="petChoice" id="putChoice"> 
+            <option value="Select" selected disabled >Select from: </option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Bunny">Bunny</option>
+        </select>
+    </form>
+    </main>
+</body>
+</html>
