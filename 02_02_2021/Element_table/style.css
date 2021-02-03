@@ -1,0 +1,214 @@
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+
+.header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 255px;
+    position: absolute;
+}
+.bigger {
+    font-size: 2.2rem;
+}
+
+.head_list  {
+    display: inline-block;
+    position: absolute;
+    top: 49px;
+    left: -85px;
+}
+
+.head_list ul {
+    float: left;
+    margin-bottom: -50px;
+}
+
+.ul_one {  
+    margin-left: 200px;
+}
+
+.head_list li {
+    list-style: none;
+    font-size: 0.5rem; 
+    padding: 5px 0; 
+    font-weight: bold;
+}
+
+.s_one {
+    
+    background-color: #adadad;
+    padding: 0 5px;
+    margin-right: 4px;
+    
+}
+
+.s_two {
+    background-color: lightsalmon;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_three {
+    background-color: crimson;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_four {
+    background-color: #8f53a7;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_five {
+    background-color: #325ed8;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_six {
+    background-color: #83c78e;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_seven {
+    background-color: lightblue;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_eight {
+    background-color: green;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_nine {
+    background-color: orangered;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+.s_ten {
+    background-color: #632999;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+tbody {
+    display: flex;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;   
+} 
+
+.small td {
+    font-size: small;
+}
+
+.x-small td {
+    font-size: x-small;
+}
+.hidden {
+    visibility: hidden;
+}
+
+.number {
+    margin-left: -70%;
+}
+
+th {
+    font-size: large;
+    font-weight: bolde;
+}
+
+td {
+    font-size: 3px;    
+}
+
+.number {
+    font-size: 6px;
+}
+
+td, th {
+    color: white;
+}
+
+tr {
+    margin: 2px;
+}
+
+
+.eighth {
+    margin-top: 20px;
+}
+
+.eighth::before {
+    content: "*";
+    color: orangered;
+    position: absolute;
+    left: 102px;
+    bottom: 80px;
+    font-weight: bolder;
+}
+
+.nineth::before {
+    content: "**";
+    color: #632999;
+    position: absolute;
+    left: 95px;
+    bottom: 30px;
+    font-weight: bolder;
+}
+
+tr:nth-child(1) {
+    background-color: lightsalmon;
+}
+
+.middle tr:nth-child(18) {
+    background-color: #325ed8;
+}
+
+.middle tr:nth-child(17) {
+    background-color: lightblue;
+}
+
+.middle tr:nth-child(2) {
+    background-color: crimson;
+}
+
+.middle tr:nth-child(n+4):nth-child(-n+12), .fifth tr:nth-child(3), .fourth tr:nth-child(3) {
+    background-color: #8f53a7;
+}
+
+.eighth tr, .seventh tr:nth-child(3) {
+    background-color: orangered;
+}
+
+.nineth tr, .sixth tr:nth-child(3) {
+    background-color: #632999;
+}
+
+.middle tr:nth-child(13), .fifth tr:nth-child(14), .sixth tr:nth-child(n+14):nth-child(-n+15), .seventh tr:nth-child(n+14):nth-child(-n+16) {
+    background-color: green;
+}
+
+.second tr:nth-child(13), .third tr:nth-child(14), .fourth tr:nth-child(n+14):nth-child(-n+15), .fifth tr:nth-child(n+15):nth-child(-n+16), .sixth tr:nth-child(16) {
+    background-color: #83c78e;
+}
+
+.first tr:first-child, .second tr:nth-child(n+14):nth-child(-n+16), .third tr:nth-child(n+15):nth-child(-n+16), .fourth tr:nth-child(16) {
+    background-color: #adadad;
+}
+

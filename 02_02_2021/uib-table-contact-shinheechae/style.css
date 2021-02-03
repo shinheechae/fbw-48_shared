@@ -1,0 +1,16 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact, th, td {
+    border: rgb(243, 215, 215) 1px solid;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.contact th, td {
+    padding: 5px 10px;
+}
+
+tbody tr:nth-child(odd), tfoot {
+    background-color: rgb(243, 215, 215);
+}

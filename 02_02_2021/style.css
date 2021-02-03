@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+h1 {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.musicians {
+    margin: 5% auto; 
+    /* 'auto' aligns the content center horizontally */
+    width: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+.musicians, th, td {
+    border: 1px solid gray;
+}
+
+.musicians td {
+    padding: 5px 8px;
+}
+
+.musicians tr:nth-child(even) {
+    background-color: palegoldenrod;
+}
+
+.musicians tr:nth-child(5) {
+    background-color: deepskyblue;
+}
+
+.musicians tr:nth-child(3n+0) {
+    color: green;
+}
+.countries {
+    margin: 5% auto;
+    width: 80%;
+    border: 2px solid orange;
+    
+}
+
+.country th, td {
+    border: 1px solid gray;
+}
+
+.colgroup {
+    margin: 5% auto;
+    border-collapse: collapse;
+}
+
+
+.colgroup td {
+    border: 1px solid black;
+}
+
+
+.colgroup tr > th, .colgroup td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* attribute selector used to select elements with the specified attribute and value */
+
+th[colspan="2"] {
+    background-color: rgb(198, 229, 240);
+}
+
+.colgroup th[scope="col"]{
+    background-color: rgb(247, 201, 201);
+}

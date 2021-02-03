@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>The HTML <code>Table</code> element represents tabular data - info presented in a two dimensional table comprised of rows and columns of ceslls containing data</h1>
+
+    <table class="musicians">
+        <thead>
+            <tr>
+                <!-- colspan spans more than one column -->
+                <th colspan="2">Musicians</th>
+            </tr>
+        </thead>
+
+            <tbody>
+                <tr>
+                    <td>K's </td>
+                    <td>Choice</td>
+                </tr>
+                <tr>
+                    <td>Gesunokiwami</td>
+                    <td>Otome</td>
+                </tr>
+                <tr>
+                    <td>Chilly</td>
+                    <td>Gonszles</td>
+                </tr>
+                <tr>
+                    <td>Ohashi</td>
+                    <td>Trio</td>
+                </tr>
+                <tr>
+                    <td>Lisa </td>
+                    <td>Ono</td>
+                </tr>
+            </tbody>
+       <tfoot>
+           <tr>
+               <td colspan="2">Listed by Shinhee</td>
+           </tr>
+       </tfoot>
+    </table>
+
+    <table class="countries">
+        <tr>
+            <th scope="col">Coutries</th>
+            <th scope="col">Capitals</th>
+            <th scope="col">Population</th>
+            <th scope="col">Language</th>
+        </tr>
+    <tbody>
+        <tr>
+           <th scope="row">USA</th>
+           <td>Washington, D.C</td>
+           <td>328.2 million</td>
+           <td>English / Spanish</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Japan</th>
+                <td>Tokyo</td>
+                <td>126.5 million</td>
+                <td>Japanese</td>
+            
+        </tr>
+
+        <tr>
+            <th scope="row">Cuba</th>
+                <td>Havana</td>
+                <td>11.34 milliion</td>
+                <td>Spanish</td>
+            
+        </tr>
+
+        <tr>
+            <th scope="row">Guatemala</th>
+                <td>Guatemala city</td>
+                <td>17.25 milliion</td>
+                <td>Spanish</td>
+            
+        </tr>
+
+        <tr>
+            <th scope="row">Sweden</th>
+                <td>Stockholm</td>
+                <td>10 million</td>
+                <td>swedish</td>
+            
+        </tr>
+    </table>
+
+    <table class="colgroup">
+        <col>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">Saturn</th>
+            <th colspan="2">Jupitor</th>
+        </tr>
+            <th scope="col">Produced</th>
+            <th scope="col">Sold</th>
+            <th scope="col">Produced</th>
+            <th scope="col">Sold</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Cars</th>
+            <td>20,000</td>
+            <td>15,240</td>
+            <td>350,000</td>
+            <td>4295</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Cellphones</th>
+            <td>20,000</td>
+            <td>15,240</td>
+            <td>350,000</td>
+            <td>4295</td>
+        </tr>
+    </table>
+    </main>
+</body>
+</html>
