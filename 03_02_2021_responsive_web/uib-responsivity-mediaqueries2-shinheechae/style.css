@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(248, 248, 107);
+    color: rgb(241, 146, 201);
+    text-shadow: 1px 1px rgb(168, 169, 170);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+li {
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        color: black;
+        padding: 20px;
+        font-family: fantasy;
+        background-color: white;
+    }
+
+    main {
+        font-family: fantasy;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    ol li {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:769px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(130, 90, 224);
+        margin: 5px auto;
+        padding: 10px 0;
+        margin-right: 10px;
+        background-color: linen;
+        font-size: 1.5em;
+        padding: 25px;
+    }
+    main {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p, ol {
+        padding: 5px;
+    }
+    li {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    
+    body {
+        color: rgb(224, 90, 224);
+    }
+
+    .bigger {
+        font-weight: 600;
+        font-size: 2em; 
+        text-shadow: 1px 1px gray;
+    }
+}
