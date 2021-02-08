@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container div {
+    min-height: 100px;
+}
+
+.box1 {
+    background-color: purple;
+}
+
+.box2{
+    background-color: violet;
+}
+
+.box3 {
+    background-color: rgb(81, 62, 189)
+}
+
+.box4 {
+    background-color: green;
+}
+
+.box5 {
+    background-color: greenyellow;
+}
+
+.box6 {
+    background-color: orange;
+}
+
+.box7 {
+    background-color: red;
+}
+
+@media screen and (min-width: 601px) {
+    .s_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+    }
+
+    .s_container div {
+        flex: 0 1 33.3%;
+    }
+}
+
+@media screen and (min-width: 801px)  {
+    .f_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .f_container div {
+        flex: 0 1 50%;
+    }
+}

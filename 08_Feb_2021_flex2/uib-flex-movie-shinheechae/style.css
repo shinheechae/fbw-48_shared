@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.genres > div {
+    flex-basis: 500px;
+    line-height: 100px;
+    text-align: center;
+
+}
+.act {
+    background-color: dodgerblue;
+    flex: 1 500px;
+}
+
+.thr {
+    background-color:  rgb(190, 178, 178);
+    flex: 10 1 500px;
+}
+
+.com {
+    background-color:  rgb(255, 214, 30);
+    flex: 10 1 500px;
+}
+
+
+.hor {
+    background-color: black;
+    color: white;
+    flex: 1 500px;
+}
+
+.dra {
+    background-color: darkgray;
+    flex: 1 500px;
+}
+
+.rom {
+    background-color: red;
+    flex: 1 500px;
+}
