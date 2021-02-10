@@ -1,0 +1,34 @@
+.d-grid > div {
+    background-color: #fae8d2;
+    padding: 0.5em;
+}
+
+.d-grid > div:nth-child(even) {
+    background-color: burlywood;
+
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1.2fr 0.2fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-gap: 1em;  
+   
+}
+
+.d-grid2 > div {
+    background-color: #e0d2fa;
+    padding: 0.5em;
+}
+
+.d-grid2 > div:nth-child(even) {
+    background-color: rgb(171, 146, 218);
+
+}
+
+.d-grid2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 2fr 2fr;
+    grid-gap: 1em;  
+}
