@@ -92,12 +92,11 @@ button:hover {
 
 
 input:focus {
-    border: 2px solid crimson;
-
+   outline: 2px double crimson;
 }
 
 input:focus + label {
-    border: 2px solid crimson;
+    outline: 2px double crimson;
 }
 
 
