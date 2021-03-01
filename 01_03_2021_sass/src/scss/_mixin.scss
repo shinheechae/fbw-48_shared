@@ -1,0 +1,21 @@
+@use "./variables";
+
+@mixin color($bg-color) {
+    height: 9rem;
+    width: 15rem;
+    background-color: $bg-color;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: cener;
+}
+
+@mixin flex-row{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: cener;
+}

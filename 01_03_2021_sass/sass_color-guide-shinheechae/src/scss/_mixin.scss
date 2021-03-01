@@ -1,0 +1,36 @@
+@use "./variables" as var;
+
+ @mixin color($bg-color) {
+    height: 9rem;
+    width: 15rem;
+    background-color: $bg-color;
+  }
+
+  @mixin shade($bg-color) {
+    height: 12rem;
+    width: 5rem;
+    background-color: $bg-color;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin border {
+    border: 1px solid var.$border-color;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+    
