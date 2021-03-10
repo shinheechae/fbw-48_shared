@@ -1,0 +1,23 @@
+{
+  "name": "1-pb-console-shinheechae",
+  "version": "1.0.0",
+  "description": "## CONSOLE.LOG EXERCISES: Getting Started",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-48-2/1-pb-console-shinheechae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-48-2/1-pb-console-shinheechae/issues"
+  },
+  "homepage": "https://github.com/FbW-48-2/1-pb-console-shinheechae#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
