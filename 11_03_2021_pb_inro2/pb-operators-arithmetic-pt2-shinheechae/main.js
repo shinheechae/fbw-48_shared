@@ -8,5 +8,11 @@ console.log(Math.sqrt(9*(9-5)*(9-6)*(9-7))); // 14.696938456699069
 console.log(9*9*9); // 729
 console.log(22.35+(22.35*0.1)+26.67+ (26.67*0.15)+35.92+(35.92*0.2)); // €98.3595
 console.log((8+6+5+9+8+2+1+8.5+7+4)/10); //5.85 hours per day
+
+// Q11. A math student scored 75, 70, 85, 90, 100 on the first five tests he took . After he took his sixth math test, the average is now 85. What did he score on the sixth test?
+// Expected output: Score in the sixth test: --.
+console.log(75+70+85+90+100);
+
 console.log(510-420); //score in the 6th test: 90
+
 console.log(160-78); // James needs a minimum of 82% to get an 80% average.
